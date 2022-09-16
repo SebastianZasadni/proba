@@ -265,3 +265,89 @@ h1 {
   line-height: 118%;
   padding-bottom: 14px;
 }
+.portfolio-list,
+.portfolio-list-item {
+  display: inline;
+}
+.portfolio-list {
+  position: absolute;
+
+  left: 510px;
+  top: 174px;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 8px;
+  height: 38px;
+}
+.portfolio-link:hover {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  color: #fff;
+  background-color: #2196f3;
+  border-radius: 4px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 8px;
+  height: 38px;
+}
+.portfolio-link:focus {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  color: #fff;
+  background-color: #2196f3;
+  border-radius: 4px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 8px;
+  height: 38px;
+}
+.portfolio-table {
+  border-spacing: 30px;
+  padding-left: 185px;
+  padding-top: 152px;
+}
+.portfolio-box {
+  border: 1px solid #eeeeee;
+  width: 370px;
+  height: 404px;
+}
+.project-header {
+  margin-left: 24px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 20px;
+}
+.project-type {
+  margin-left: 24px;
+  margin-bottom: 20px;
+  color: #757575;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
