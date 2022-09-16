@@ -6,11 +6,11 @@ header {
   height: 80px;
 }
 .logo-box-top {
-  margin-left: 215px;
-  margin-top: 21px;
   position: absolute;
   width: 145px;
   height: 31px;
+  left: 215px;
+  top: 24px;
 }
 .logo {
   text-decoration: none;
@@ -18,15 +18,15 @@ header {
   color: #2196f3;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19%;
+  line-height: 119%;
 }
 .black {
   color: #000;
 }
 nav {
-  margin-left: 407px;
-  margin-top: 16px;
   position: absolute;
+  left: 407px;
+  top: 32px;
 }
 .nav-list,
 .nav-list-item {
@@ -37,7 +37,7 @@ nav {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 114%;
   color: #212121;
   margin-left: 46px;
 }
@@ -46,7 +46,7 @@ nav {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 114%;
   color: #2196f3;
   margin-left: 46px;
 }
@@ -55,14 +55,14 @@ nav {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 114%;
   color: #2196f3;
   margin-left: 46px;
 }
 .nav-contact {
   position: absolute;
-  margin-left: 1028px;
-  margin-top: 16px;
+  left: 1028px;
+  top: 32px;
 }
 .contact-link {
   width: 231px;
@@ -72,7 +72,7 @@ nav {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 114%;
   padding-left: 50px;
 }
 .contact-link:focus {
@@ -82,7 +82,7 @@ nav {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 114%;
   padding-left: 50px;
   color: #2196f3;
 }
@@ -93,7 +93,7 @@ nav {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14%;
+  line-height: 114%;
   padding-left: 50px;
   color: #2196f3;
 }
@@ -132,21 +132,21 @@ address {
   font-family: "Roboto";
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
-  line-height: 1.71%;
+  line-height: 171%;
 }
 .contact-link-bottom:focus {
   text-decoration: none;
   font-family: "Roboto";
   color: #2196f3;
   font-size: 14px;
-  line-height: 1.71%;
+  line-height: 171%;
 }
 .contact-link-bottom:hover {
   text-decoration: none;
   font-family: "Roboto";
   color: #2196f3;
   font-size: 14px;
-  line-height: 1.71%;
+  line-height: 171%;
 }
 .main-box {
   width: 1600px;
@@ -155,21 +155,26 @@ address {
   color: #fff;
 }
 .main-header-box {
+  position: absolute;
   width: 696px;
   height: 120px;
-  padding-left: 452px;
-  margin-top: 0px;
-  padding-top: 184px;
+  left: 452px;
+  top: 280px;
+
   text-align: center;
 }
 h1 {
   font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 136%;
   text-transform: uppercase;
 }
 .order-button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -179,4 +184,24 @@ h1 {
   height: 50px;
   left: 700px;
   top: 430px;
+  margin-top: 30px;
+  color: #fff;
+}
+.lorem-table {
+  padding-left: 185px;
+  padding-top: 64px;
+  border-spacing: 30px;
+}
+.lorem-header {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 114%;
+  text-transform: uppercase;
+}
+.lorem-describe {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 171%;
+  color: #757575;
 }
