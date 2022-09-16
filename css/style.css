@@ -14,7 +14,8 @@ header {
   line-height: 1.19%;
   padding-left: 215px;
   margin-top: 21px;
-  float: left;
+  padding-top: 21px;
+  position: absolute;
 }
 .black {
   color: #000;
@@ -24,16 +25,73 @@ li {
   display: inline;
 }
 .nav-list {
-  padding-left: 453px;
-  padding-top: 35px;
-  margin-top: 35px;
+  padding-left: 407px;
+
+  padding-top: 16px;
+  margin-top: 16px;
+  position: absolute;
 }
 .nav-button {
   text-decoration: none;
   font-family: "Roboto";
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14%;
+  color: #212121;
+  padding-left: 46px;
+}
+.nav-button:focus {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14%;
+  color: #2196f3;
+  padding-left: 46px;
+}
+.nav-button:hover {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14%;
+  color: #2196f3;
+  padding-left: 46px;
+}
+.nav-contact {
+  padding-left: 472px;
+  margin-left: 472px;
+  padding-top: 16px;
+  margin-top: 16px;
+  position: absolute;
+}
+.contact-link {
+  text-decoration: none;
+  font-family: "Roboto";
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14%;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+.contact-link:focus {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14%;
+  padding-left: 50px;
+  margin-left: 50px;
+  color: #2196f3;
+}
+.contact-link:hover {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14%;
+  padding-left: 50px;
+  margin-left: 50px;
   color: #2196f3;
 }
