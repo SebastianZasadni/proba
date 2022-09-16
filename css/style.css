@@ -12,24 +12,21 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19%;
-  padding-left: 215px;
+  margin-left: 215px;
   margin-top: 21px;
-  padding-top: 21px;
   position: absolute;
 }
 .black {
   color: #000;
 }
+nav {
+  margin-left: 407px;
+  margin-top: 16px;
+  position: absolute;
+}
 .nav-list,
 li {
   display: inline;
-}
-.nav-list {
-  padding-left: 407px;
-
-  padding-top: 16px;
-  margin-top: 16px;
-  position: absolute;
 }
 .nav-button {
   text-decoration: none;
@@ -38,7 +35,7 @@ li {
   font-size: 14px;
   line-height: 1.14%;
   color: #212121;
-  padding-left: 46px;
+  margin-left: 46px;
 }
 .nav-button:focus {
   text-decoration: none;
@@ -47,7 +44,7 @@ li {
   font-size: 14px;
   line-height: 1.14%;
   color: #2196f3;
-  padding-left: 46px;
+  margin-left: 46px;
 }
 .nav-button:hover {
   text-decoration: none;
@@ -56,14 +53,12 @@ li {
   font-size: 14px;
   line-height: 1.14%;
   color: #2196f3;
-  padding-left: 46px;
+  margin-left: 46px;
 }
 .nav-contact {
-  padding-left: 472px;
-  margin-left: 472px;
-  padding-top: 16px;
-  margin-top: 16px;
   position: absolute;
+  margin-left: 1028px;
+  margin-top: 16px;
 }
 .contact-link {
   text-decoration: none;
@@ -73,7 +68,6 @@ li {
   font-size: 14px;
   line-height: 1.14%;
   padding-left: 50px;
-  margin-left: 50px;
 }
 .contact-link:focus {
   text-decoration: none;
@@ -82,7 +76,6 @@ li {
   font-size: 14px;
   line-height: 1.14%;
   padding-left: 50px;
-  margin-left: 50px;
   color: #2196f3;
 }
 .contact-link:hover {
@@ -92,6 +85,5 @@ li {
   font-size: 14px;
   line-height: 1.14%;
   padding-left: 50px;
-  margin-left: 50px;
   color: #2196f3;
 }
