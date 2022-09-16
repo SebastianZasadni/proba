@@ -5,6 +5,13 @@ header {
   width: 1600px;
   height: 80px;
 }
+.logo-box-top {
+  margin-left: 215px;
+  margin-top: 21px;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+}
 .logo {
   text-decoration: none;
   font-family: "Raleway";
@@ -12,9 +19,6 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19%;
-  margin-left: 215px;
-  margin-top: 21px;
-  position: absolute;
 }
 .black {
   color: #000;
@@ -25,7 +29,7 @@ nav {
   position: absolute;
 }
 .nav-list,
-li {
+.nav-list-item {
   display: inline;
 }
 .nav-button {
@@ -61,6 +65,8 @@ li {
   margin-top: 16px;
 }
 .contact-link {
+  width: 231px;
+  height: 21px;
   text-decoration: none;
   font-family: "Roboto";
   color: #757575;
@@ -70,6 +76,8 @@ li {
   padding-left: 50px;
 }
 .contact-link:focus {
+  width: 231px;
+  height: 21px;
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 500;
@@ -79,6 +87,8 @@ li {
   color: #2196f3;
 }
 .contact-link:hover {
+  width: 231px;
+  height: 21px;
   text-decoration: none;
   font-family: "Roboto";
   font-weight: 500;
@@ -86,4 +96,55 @@ li {
   line-height: 1.14%;
   padding-left: 50px;
   color: #2196f3;
+}
+footer {
+  width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+}
+.logo-box-bottom {
+  width: 145px;
+  height: 31px;
+  padding-top: 60px;
+  margin-left: 215px;
+}
+.white {
+  color: #fff;
+}
+address {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 215px;
+}
+.contact-list-footer {
+  list-style-type: none;
+  padding-left: 215px;
+  margin: 0px;
+}
+.contact-list-item {
+  padding-top: 9px;
+}
+.contact-link-bottom {
+  text-decoration: none;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71%;
+}
+.contact-link-bottom:focus {
+  text-decoration: none;
+  font-family: "Roboto";
+  color: #2196f3;
+  font-size: 14px;
+  line-height: 1.71%;
+}
+.contact-link-bottom:hover {
+  text-decoration: none;
+  font-family: "Roboto";
+  color: #2196f3;
+  font-size: 14px;
+  line-height: 1.71%;
 }
